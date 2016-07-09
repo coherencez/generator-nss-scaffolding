@@ -9,11 +9,10 @@
     "url": "https://github.com/tkswann2"
   },
   "files": [
-    "generators"
+    "generators/app"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "yeoman-generator",
     "nss",
     "boilerplate",
     "gulp",

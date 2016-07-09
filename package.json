@@ -1,6 +1,6 @@
 {
   "name": "generator-nss-scaffolding",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Boilerplate generator for Nashville Software School",
   "homepage": "https://github.com/tkswann2/generator-nss-scaffolding",
   "author": {
@@ -13,6 +13,7 @@
   ],
   "main": "generators/index.js",
   "keywords": [
+    "yeoman-generator",
     "nss",
     "boilerplate",
     "gulp",

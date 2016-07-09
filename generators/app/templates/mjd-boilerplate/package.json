@@ -1,0 +1,30 @@
+{
+  "name": "<%= title %>",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": { <% if(browserify) { %>
+    "browserify": "^13.0.1",
+    "watchify": "^3.7.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "underscore": "^1.8.3", <% } %> <%if(jasmine){ %>
+    "gulp-jasmine": "^2.4.0", 
+    "jasmine-spec-reporter": "^2.5.0",<% } %> <% if(gulp) { %>
+    "gulp": "^3.9.1", 
+    "gulp-jshint": "^2.0.1",
+    "gulp-watch": "^4.3.8",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0" <% } %>
+  },
+  "dependencies": { <% if(jquery && !bootstrap) { %>
+    "jquery": "^3.0.0" <% } %>
+  }
+}

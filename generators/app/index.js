@@ -164,17 +164,16 @@ module.exports = yeoman.Base.extend({
         );
     }
 
+  },
+
+  install: function () {
+    this.installDependencies({
+      bower: false,
+      npm: true,
+      callback: function () {
+        console.log('All dependencies installed, your scaffold is now complete!');
+      }
+    });
+
   }
-  // ,
-
-  // install: function () {
-  //   this.installDependencies({
-  //     bower: false,
-  //     npm: true,
-  //     callback: function () {
-  //       console.log('All dependencies installed, your scaffold is now complete!');
-  //     }
-  //   });
-
-  // }
 });

@@ -1,4 +1,4 @@
-# generator-nss-scaffolding [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-nss-scaffolding [![NPM version][npm-image]][npm-url][![Dependency Status][daviddm-image]][daviddm-url]
 > Boilerplate generator for Nashville Software School
 
 ## Installation
